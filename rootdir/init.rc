@@ -371,7 +371,6 @@ on init
     mkdir /dev/cpuset/audio-app
     copy /dev/cpuset/cpus /dev/cpuset/audio-app/cpus
     copy /dev/cpuset/mems /dev/cpuset/audio-app/mems
-    write /dev/cpuset/audio-app/cpus 0-5
 
     # Moto huangzq2, cpuset boost
     mkdir /dev/cpuset/boost-app
